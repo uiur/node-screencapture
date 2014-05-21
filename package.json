@@ -8,6 +8,10 @@
     "darwin",
     "linux"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uiureo/node-screencapture.git"
+  },
   "dependencies": {
     "tmp": "0.0.23"
   },
