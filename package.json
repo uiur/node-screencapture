@@ -1,0 +1,15 @@
+{
+  "name": "screencapture",
+  "version": "0.0.1",
+  "description": "Take a screenshot of your desktop",
+  "main": "index.js",
+  "author": "uiureo",
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "dependencies": {
+    "tmp": "0.0.23"
+  },
+  "license": "MIT"
+}
