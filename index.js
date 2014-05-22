@@ -36,7 +36,7 @@ module.exports = function screencapture(filePath, callback) {
   if (filePath) {
     screencaptureWithFilePath(filePath, callback)
   } else {
-    tmp.file(function (err, tmpPath) {
+    tmp.tmpName({ postfix: '.png' }, function (err, tmpPath) {
       if (err) callback(err)
       screencaptureWithFilePath(tmpPath, callback)
     })
