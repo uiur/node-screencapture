@@ -1,6 +1,6 @@
 {
   "name": "screencapture",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Take a screenshot of your desktop",
   "main": "index.js",
   "author": "uiureo",
