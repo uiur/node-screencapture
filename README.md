@@ -7,9 +7,18 @@ Available in OSX and Linux.
 var screencapture = require('screencapture')
 
 screencapture(function (err, imagePath) {
-  console.log(imagePath)
+  // then you have imagePath as png.
+  //
+  // When an user exits screencapture without taking a screenshot,
+  // imagePath == null
 })
+```
 
+You can specify an output file path.
+``` javascript
+screencapture('/path/to/output.png', function (err, imagePath) {
+  // imagePath is '/path/to/output.png' or null
+})
 ```
 
 ## Installation
