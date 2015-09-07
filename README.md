@@ -1,7 +1,7 @@
 # node-screencapture
 Take a screenshot of your desktop.
 
-Available in OSX and Linux.
+Available in OSX, Linux and Windows.
 
 ``` javascript
 var screencapture = require('screencapture')
