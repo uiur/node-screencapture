@@ -1,5 +1,5 @@
 # node-screencapture
-Take a screenshot of your desktop.
+Take a screenshot of your desktop interactively.
 
 Available in OSX, Linux and Windows.
 
