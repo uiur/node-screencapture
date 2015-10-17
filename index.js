@@ -1,5 +1,5 @@
 var tmp = require('tmp')
-  , capture = require('./lib/capture_exec').capture
+var capture = require('./lib/capture_exec').capture
 
 /*
    Capture a screenshot and resolve with the image path
@@ -7,7 +7,7 @@ var tmp = require('tmp')
    @param {String} [filePath]
    @param {Function} callback
 */
-module.exports = function screencapture(filePath, callback) {
+module.exports = function screencapture (filePath, callback) {
   if (typeof filePath === 'function') {
     callback = filePath
     filePath = null
