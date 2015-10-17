@@ -1,4 +1,6 @@
 # node-screencapture
+[![Build Status](https://travis-ci.org/uiureo/node-screencapture.svg)](https://travis-ci.org/uiureo/node-screencapture)
+
 Take a screenshot of your desktop interactively.
 
 Available in OSX, Linux and Windows.
