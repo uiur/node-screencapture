@@ -10,16 +10,17 @@
     "darwin",
     "linux"
   ],
+  "scripts": {
+    "test": "tape 'test/**/*.js' | tap-spec"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/uiureo/node-screencapture.git"
   },
-  "dependencies": {
-    "tape": "^2.13.1",
-    "tmp": "0.0.23"
-  },
   "license": "MIT",
   "devDependencies": {
-    "mocks": "0.0.15"
+    "tap-spec": "^4.1.0",
+    "tape": "^2.14.0",
+    "tmp": "0.0.23"
   }
 }
