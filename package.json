@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "uiureo",
   "os": [
+    "freebsd",
     "win32",
     "darwin",
     "linux"
