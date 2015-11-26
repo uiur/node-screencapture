@@ -18,10 +18,12 @@
     "url": "git://github.com/uiureo/node-screencapture.git"
   },
   "license": "MIT",
+  "dependencies": {
+    "tmp": "0.0.23"
+  },
   "devDependencies": {
     "standard": "^5.3.1",
     "tap-spec": "^4.1.0",
-    "tape": "^2.14.0",
-    "tmp": "0.0.23"
+    "tape": "^2.14.0"
   }
 }
