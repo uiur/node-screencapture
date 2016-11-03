@@ -3,7 +3,7 @@
 
 Take a screenshot of your desktop interactively.
 
-Available in OSX, Linux and Windows.
+Available in OSX, Linux, FreeBSD and Windows.
 
 ``` javascript
 var screencapture = require('screencapture')
