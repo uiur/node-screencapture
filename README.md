@@ -23,6 +23,9 @@ screencapture('/path/to/output.png', function (err, imagePath) {
 })
 ```
 
+You can use env named `CAPTURE_COMMAND` for capture.
+This is formatted with `%s` for file path; `CAPTURE_COMMAND="shutter -s -e -o %s"`.
+
 ## Installation
 ```
 npm install -g screencapture
